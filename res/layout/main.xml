@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <DatePicker
+        android:id="@+id/main_datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/main_workoutSets"
+        android:text="@string/main_spinner_workoutSets" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/main_spinner_workout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/main_reps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/main_hint_reps"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/main_logWorkout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button_logWorkout" />
+
+</LinearLayout>

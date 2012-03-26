@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitocracy</string>
+    <string name="main_hint_reps">Reps</string>
+    <string name="main_button_logWorkout">Log Workout</string>
+    <string name="main_spinner_workoutSets">Choose a workout set</string>
+    <string-array name="main_spinner_workoutSets">
+        <item>Default</item>
+    </string-array>
+     <string name="main_spinner_workout">Choose a workout</string>
+    <string-array name="main_spinner_workout">
+        <item>Push-Ups</item>
+        <item>Sit ups</item>
+    </string-array>
+    <integer-array name="main_spinner_workout_ids">
+        <item>107</item>
+        <item>349</item>
+    </integer-array>
+	<string name="main_menu_account_login">Login</string>
+</resources>
